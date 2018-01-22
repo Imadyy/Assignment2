@@ -13,7 +13,7 @@ public class Energy {
 	System.out.println("Enter the final temperature?");
 	double number3 = input.nextDouble();
 	
-	energy = (number1) * (number3) - (number2);
+	energy = (number1) * (number3 - number2) * 4184;
 	System.out.println("The energy needed is  " + energy);
 	
 	
